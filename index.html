@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <i class="fa-brands fa-facebook-f"></i>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
     <title>Login Form</title>
 </head>
 <body>
     <main class="container">
         <h2>Login</h2>
-        <form action="">
+        <form onsubmit="handleSubmit()">
             <div class="input-field">
                 <input type="text" name="username" id="username"
-                placeholder="Enter Your Username">
+                placeholder="Enter Your Username" required>
                 <div class="underline"></div>
             </div>
 
             <div class="input-field">
                 <input type="password" name="password" id="password"
-                placeholder="Enter Your Password">
+                placeholder="Enter Your Password" required>
+                <a href="#" onclick="handlePasswordShown()"><i class="fas fa-eye" id="eye"></i></a>
                 <div class="underline"></div>
             </div>
 
