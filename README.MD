@@ -3,7 +3,7 @@
 
 Projeto realizado baseado no vídeo do Youtube da Girl Coding.
 
-Project based on Girl Coding Youtube's Channel.
+Project based on Girl Coding's youtube video
 
 # Tecnologias
 
