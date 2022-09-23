@@ -10,4 +10,3 @@ Project based on Girl Coding's Youtube video.
 - HTML
 - CSS
 - Javascript
-- GIT e GITHUB
