@@ -10,3 +10,8 @@ Project based on Girl Coding's Youtube video.
 - HTML
 - CSS
 - Javascript
+
+🔗 Links úteis:<br>
+Youtube vídeo: https://www.youtube.com/watch?v=MkXuQ9CcHqU
+
+Desenvolvido com 💘 por Natasha Limeres
